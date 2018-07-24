@@ -1,0 +1,128 @@
+.calendar-wrapper {
+  margin: 40px;
+  border-spacing: 0;
+  width: 40%;
+  height: fit-content;
+  border: 1px solid #ddd;
+  position: relative;
+  top: 53px;
+  min-width: 375px;
+}
+
+.icon {
+  color: #fff;
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.days {
+  padding: 10px 0;
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #57c9c4;
+  justify-content: center;
+}
+
+.wrapper {
+  padding: 0;
+  border-spacing: 0;
+  width: 100%;
+  background-color: #4fd5cf;
+  color: #fff;
+  font-weight: 900;
+  font-size: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; }
+
+.m {
+  width: 170px;
+  height: 50px;
+  line-height: 50px;
+  margin-left: auto;
+  transition: all .3s ease-out;
+}
+
+.m:hover {
+  border: 2px solid #28a6d4;
+  color: #28a6d4;
+  transition: all .3s ease;
+  border-radius: 10px; }
+
+.btnNext {
+  margin-left: auto;
+  padding: 10px;
+}
+
+.week_day {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 11.6%;
+  padding: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+}
+
+.d, .empty {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 11.6%;
+  overflow: hidden;
+  padding: 11px 5px;
+  font-size: 14px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.d > span {
+  justify-content: center;
+  display: flex;
+  width: 40px;
+  align-items: center;
+  height: 40px;
+  transition: transform .2s;
+}
+
+.d:hover > span {
+  background-color: #57c9c4;
+  border-radius: 50%;
+  cursor: pointer;
+  overflow: hidden;
+  transform: scale(1.4);
+  color: #fff;
+}
+
+.week_month {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.date-month {
+  color: #f4f4f4;
+}
+
+.date-month {
+  padding-right: 5px;
+}
+
+.current-day > span {
+  border-radius: 50%;
+  border: 1px solid #57c9c4;
+}
+
+.disable {
+  pointer-events: none;
+  opacity: 0.4;
+}

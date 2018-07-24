@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,600');
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #222;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.section-1-div {
+  background-image: url("../images/main.jpg");
+  display: flex;
+  min-height: 750px;
+  padding: 0 30px;
+  opacity: .9;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+}
+
+
+.section-1-wrapper {
+  display: flex;
+  max-width: 1400px;
+  line-height: 80px;
+  flex-direction: column;
+  position: absolute;
+  top: 289px;
+
+  h1 {
+    font-size: 100px;
+    font-weight: 600;
+    color: #000;
+    padding-bottom: 20px;
+  }
+
+  :nth-child(2) {
+    margin: 0 auto;
+  }
+}
+
+.get-started {
+  text-align: center;
+  border-radius: 50px;
+  padding: 15px 50px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #000;
+}
+
+.section-2 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  .salons {
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    width: 354px;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .counter {
+      font-size: 42px;
+    }
+
+    h5 {
+      font-size: 39px;
+    }
+  }
+}
+
+.section-3-wrapper {
+  background-image: url("../images/ho.jpg");
+  display: flex;
+  min-height: 750px;
+  padding: 0 30px;
+  opacity: .9;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback {
+  display: flex;
+  max-width: 1400px;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+
+  p {
+    text-align: center;
+    padding: 50px 140px;
+  }
+}
+
+.feedback-writer-name {
+  font-size: 45px;
+}

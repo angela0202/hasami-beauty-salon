@@ -1,0 +1,14 @@
+[
+    {
+        "service": "Hair Services",
+        "image": "./images/hair.jpg"
+    },
+    {
+        "service": "Makeup Services",
+        "image": "./images/makeup.jpg"
+    },
+    {
+        "service": "Bridal & Prom",
+        "image": "./images/bridal.jpg"
+    }
+]

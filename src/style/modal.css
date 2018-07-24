@@ -1,0 +1,167 @@
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4); }
+
+.modal-content {
+  position: relative;
+  background: #f5f5f5;
+  margin: auto;
+  padding: 0;
+  top: 18%;
+  border: 1px solid #888;
+  max-width: 500px;
+  min-width: 355px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  animation-name: animatetop;
+  animation-duration: 0.4s; }
+
+/***** Add Animation *****/
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0; }
+  to {
+    top: 0;
+    opacity: 1; } }
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0; }
+  to {
+    top: 0;
+    opacity: 1; } }
+
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold; }
+
+.close :hover,
+.close :focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer; }
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #65d6d0; }
+
+.modal-header h2 {
+  color: #f4f4f4;
+  font-size: 18px;
+  padding: 14px; }
+
+.modal-body {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px; }
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white; }
+
+.modal-overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  visibility: hidden; }
+
+.appointment-form p {
+  font-size: 17px;
+  padding: 10px; }
+
+.book-date,
+.book-date-name,
+.book-date-email {
+  width: 100%;
+  height: 50px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  background-color: #fff; }
+
+.book-date img,
+.book-date-name img,
+.book-date-email img {
+  padding: 5px; }
+
+.book-date .date,
+.book-date-name .date,
+.book-date-email .date {
+  padding-left: 25px;
+  font-size: 16px; }
+
+.field p {
+  padding: 0;
+  font-size: 15px; }
+
+.field .field-label-name {
+  cursor: default;
+  font-size: 17px;
+  font-weight: 600; }
+
+.field .field-label-name::after {
+  content: '*';
+  font-size: 23px;
+  color: #e35656;
+  padding-left: 8px;
+  position: absolute; }
+
+.book-date-name,
+.book-date-email {
+  padding-left: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  width: 99%;
+  outline: none;
+  font-size: 17px; }
+
+.field-service {
+  display: flex;
+  flex-direction: column; }
+
+.field-service .field-label-service {
+  cursor: default;
+  font-size: 17px;
+  font-weight: 600; }
+
+.field-service > select {
+  height: 36px;
+  border: 1px solid #ccc;
+  outline: none;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  font-size: 17px;
+  margin-top: 10px; }
+
+.appointment-submit {
+  border: none;
+  background: #65d7d1;
+  color: #f4f4f4;
+  font-size: 15px;
+  padding: 9px;
+  font-weight: bold;
+  margin-top: 26px; }
+
+.dateselect {
+  width: 100%;
+  background: none;
+  border: none;
+  pointer-events: none; }

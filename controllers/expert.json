@@ -1,0 +1,23 @@
+[
+  {
+    "full_name": "JENNY WILLIAM",
+    "specialty": "Founder",
+    "image": "../images/beautypress/team-1-350x378.jpg",
+    "facebook": "aa",
+    "twitter": "bb"
+  },
+  {
+    "full_name": "RUSANA RANSHAW",
+    "specialty": "C.E.O",
+    "image": "../images/beautypress/team-2-350x378.jpg",
+    "facebook": "aa",
+    "twitter": "bb"
+  },
+  {
+    "full_name": "JENNIFAR SMITH",
+    "specialty": "Senior Specialist",
+    "image": "../images/beautypress/team-3-350x378.jpg",
+    "facebook": "aa",
+    "twitter": "bb"
+  }
+]

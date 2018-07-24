@@ -1,0 +1,272 @@
+@media only screen and (max-width: 1050px) {
+  .section-2 {
+    height: 362px;
+
+    .salons {
+      h5 {
+        font-size: 27px;
+      }
+
+      .counter {
+        font-size: 32px;
+      }
+    }
+  }
+
+  .appointment-wrapper {
+    flex-direction: column;
+  }
+
+  .appointment {
+    justify-content: center;
+  }
+
+  .appointment-content {
+    .appointment-details {
+      width: 669px;
+    }
+
+    .appointment-details::before {
+      left: 616px;
+    }
+  }
+
+  .appointment-text {
+    width: 761px;
+  }
+
+  .appointment-text::after {
+    left: 616px;
+  }
+
+  .calendar-wrapper {
+    width: 90%;
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .section-2 {
+    .salons {
+      h5 {
+        font-size: 23px;
+      }
+
+      .counter {
+        font-size: 30px;
+      }
+    }
+  }
+
+  .appointment-content {
+    .appointment-details {
+      width: 600px;
+    }
+
+    .appointment-details::before {
+      left: 547px;
+    }
+  }
+
+  .appointment-text {
+    width: 595px;
+  }
+
+  .appointment-text::after {
+    left: 547px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .section-2 {
+    .salons {
+      h5 {
+        font-size: 19px;
+      }
+
+      .counter {
+        font-size: 24px;
+      }
+    }
+  }
+
+  .feedback-writer-name {
+    font-size: 39px;
+  }
+
+  .feedback {
+    p {
+      font-size: 17px;
+    }
+  }
+
+  .appointment-content {
+    .appointment-details {
+      width: 520px;
+    }
+
+    .appointment-details::before {
+      left: 467px;
+    }
+  }
+
+  .appointment-text {
+    width: 544px;
+  }
+
+  .appointment-text::after {
+    left: 467px;
+  }
+
+  .contact  {
+    .contact-form-wrapper {
+      flex-direction: column;
+      margin-top: 250px;
+    }
+
+    form,
+    .address {
+      width: 100%;
+    }
+  }
+
+  #map {
+    top: 236px;
+  }
+}
+
+
+@media only screen and (max-width: 700px) {
+  .feedback-writer-name {
+    font-size: 36px;
+  }
+
+  .feedback {
+    p {
+      font-size: 15px;
+      padding: 44px 100px
+    }
+  }
+
+  .appointment-header {
+    h3 {
+      text-align: center;
+    }
+  }
+
+  .appointment-content {
+    .appointment-details {
+      width: 372px;
+    }
+
+    .appointment-details::before {
+      left: 319px;
+    }
+  }
+
+  .appointment-text {
+    width: 387px;
+  }
+
+  .appointment-text::after {
+    left: 319px;
+  }
+
+  .calendar-wrapper {
+    top: 10px;
+    margin: 0;
+    left: 22px;
+  }
+}
+
+@media only screen and (max-width: 495px) {
+  .header {
+    li {
+      padding: 0 9px;
+      font-size: 14px;
+    }
+  }
+
+  .section-1-wrapper {
+    h1 {
+      font-size: 71px;
+      padding-bottom: 0;
+    }
+  }
+
+  .get-started {
+    padding: 10px 25px;
+    font-size: 18px;
+  }
+
+  .section-2 {
+    flex-direction: column;
+  }
+
+  .feedback {
+    p {
+      padding: 44px 50px
+    }
+  }
+
+
+  .appointment-content {
+    .appointment-details {
+      width: 238px;
+    }
+
+    .appointment-details::before {
+      left: 185px;
+    }
+  }
+
+  .appointment-text {
+    width: 252px;
+
+    h2 {
+      font-size: 20px;
+    }
+
+    h3 {
+      font-size: 27px;
+    }
+
+    p {
+      font-size: 15px;
+    }
+
+    ul {
+      > li {
+        font-size: 15px;
+      }
+    }
+  }
+
+  .appointment-text::after {
+    left: 185px;
+  }
+
+  .calendar-wrapper {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .header {
+    .logo-img {
+      padding: 0;
+    }
+  }
+
+  .calendar-wrapper {
+    margin: 0;
+    left: -5px;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .calendar-wrapper {
+    margin: 0;
+    left: -15px;
+  }
+}

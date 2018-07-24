@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700');
+
+.section-4 {
+  .appointment {
+    display: flex;
+    padding: 40px;
+  }
+
+  .appointment-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 89px;
+  }
+}
+
+.appointment-header {
+  h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 34px;
+  }
+
+  h3 {
+    font-size: 45px;
+  }
+}
+
+.appointment-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 55px 34px 34px 34px;
+}
+
+.appointment-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .appointment-details {
+    width: 374px;
+    height: 484px;
+    padding-left: 50px;
+    border-top: 10px solid rgb(87, 201, 196);;
+    border-left: 10px solid rgb(87, 201, 196);;
+    border-bottom: 10px solid rgb(87, 201, 196);;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .appointment-details::before {
+    content: "";
+    height: 43px;
+    width: 43px;
+    border-right: 10px solid rgb(87, 201, 196);;
+    position: relative;
+    left: 321px;
+  }
+}
+
+.appointment-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  align-items: flex-start;
+  width: 418px;
+
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 34px;
+  }
+
+  p {
+    font-size: 17px;
+    color: #646464;
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+      padding: 15px 0;
+      font-size: 18px;
+      color: #646464;
+      font-weight: 600;
+    }
+  }
+}
+
+.appointment-text::after {
+  content: "";
+  height: 43px;
+  width: 43px;
+  border-right: 10px solid rgb(87, 201, 196);;
+  position: relative;
+  left: 321px;
+}

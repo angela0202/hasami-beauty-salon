@@ -1,0 +1,141 @@
+.footer {
+  padding: 40px;
+  margin-top: 35px;
+  height: 400px; }
+
+.footer .footer-logo {
+  display: -webkit-box;
+  right: 0; }
+
+.footer .footer-logo::before {
+  content: "";
+  width: calc(47% - 124px);
+  height: 1px;
+  background: #000000;
+  position: absolute;
+  display: block; }
+
+.footer .footer-logo::after {
+  content: "";
+  width: calc(47% - 124px);
+  height: 1px;
+  background: #000000;
+  position: absolute;
+  display: block;
+  right: 0;
+  margin-right: 42px; }
+
+.footer .name {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 47px;
+  width: 169px;
+  margin: 0 auto;
+  position: relative;
+  top: -35px; }
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 96px;
+  margin: 0 auto; }
+
+.footer-social ul {
+  list-style: none;
+  display: flex; }
+
+.footer-social ul li {
+  padding: 0 17px; }
+
+.footer-social ul li a img {
+  height: 30px;
+  width: 30px; }
+
+.footer-left {
+  width: 31%;
+  text-align: center; }
+
+.footer-left ul {
+  list-style: none; }
+
+.footer-left ul li a {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  cursor: pointer; }
+
+.footer-left ul li a:hover {
+  color: #57c9c4; }
+
+.footer-right {
+  text-align: center;
+  position: relative;
+  top: -26px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 0; }
+
+.footer-right ul {
+  list-style: none; }
+
+.footer-right ul li a {
+  text-decoration: none; }
+
+.footer-right ul li a:hover {
+  color: #57c9c4; }
+
+.footer-newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.footer-newsletter h4 {
+  padding-bottom: 39px; }
+
+.form-header > h1, .form-header > p {
+  text-align: center; }
+
+.link {
+  text-decoration: none; }
+
+.form-body {
+  display: flex;
+  flex-direction: column; }
+
+.form-body-input {
+  outline: none;
+  width: 332px;
+  height: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  margin: 15px 0;
+  border-radius: 80px;
+  border: 2px solid #f0f0f0;
+  padding: 0 17px; }
+
+.form-body-input ::placeholder {
+  color: #000; }
+
+form > button {
+  width: 363px;
+  height: 45px;
+  border-radius: 50px;
+  outline: none;
+  background-color: #57c9c4;
+  color: #fff;
+  border: 1px solid rgba(87, 201, 196, 0.68);
+  font-size: 19px;
+  cursor: pointer;
+  margin-top: 15px; }
+
+form > button:hover {
+  opacity: .8; }
+
+.copyright-text {
+  text-align: center;
+  padding: 23px;
+  font-size: 14px;
+  margin-top: 23px; }
